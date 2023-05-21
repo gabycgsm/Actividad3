@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    
+}   
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    border: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+img {
+    width: 100%;
+}
+
+h4 {
+    font-size: 12px;
+    color: #e60000;
+}
+
+button {
+    background-color: rgb(59, 130, 246);
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border: black;
+    font-size: 20px;
+}
+
+.button-oferta {
+    background-color: rgb(220, 38, 38);
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border: black;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 0;
+    padding: 4px 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+
+}
+
+
+
+.nav-menu a {
+    border-radius: 6px;
+    text-decoration: none;
+    float: left;
+    color: black;
+
+}
+
+.menu-contactar {
+    padding: 3px 15px;
+    border: #ececec 1px solid;
+
+}
+
+section {
+    display: flex;
+    gap: 12;
+
+}
+
+
+
+aside {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.article-prin {
+    padding: 12px;
+}
+
+.article-sec {
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    padding: 12px;
+    width: 500px;
+    margin: 10px;
+
+}
+
+.article-form {
+    background-color: rgb(239, 246, 255);
+    border: 1px;
+    padding: 12px;
+
+    flex-wrap: wrap;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.div-form {
+
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.contenedor-iconos {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+    section {
+        display: flex;
+        gap: 12;
+        flex-wrap: wrap;
+
+    }
+
+    .ocultar_div {
+        display: none;
+    }
+
+    body {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+
+
+}
